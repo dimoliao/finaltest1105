@@ -176,6 +176,7 @@
 				TargetAttributes = {
 					35243BB01BEB361A00AB55A4 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 663GF3YJMN;
 					};
 				};
 			};
@@ -385,10 +386,13 @@
 			baseConfigurationReference = F7F0128B04B39A45ED5E34DB /* Pods-ACFinaltest1105.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ACFinaltest1105/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dd.dimo.ACFinaltest1105;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -397,10 +401,13 @@
 			baseConfigurationReference = BF6A74870C68511B6CD42321 /* Pods-ACFinaltest1105.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ACFinaltest1105/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dd.dimo.ACFinaltest1105;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
